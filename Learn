@@ -1,0 +1,13 @@
+# Create a new repository on the command line
+ 
+touch README.md
+git init (Menjadikan folder sebagai repositori)
+git add README.md (Menambahkan file ke stagging area)
+git commit -m "first commit" (Memastikan bahwa file siap di upload)
+git remote add origin https://github.com/c0ldlimit/vimcolors.git (Mengakses remote git)
+git push -u origin master (Upload data ke remote git)
+ 
+# Push an existing repository from the command line
+ 
+git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git push -u origin master
